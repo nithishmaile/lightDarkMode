@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 120px;
+  width: 220px;
+  border-radius: 8px;
+}
+.heading {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.button {
+  color: #000000;
+  background-color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+  border-width: 0px;
+}
+.lightMode-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 120px;
+  width: 220px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+.lightMode-heading {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.lightMode-button {
+  color: #000000;
+  background-color: white;
+  font-size: 12px;
+  height: 30px;
+  width: 80px;
+  border-radius: 8px;
+  border: 2px solid #000000;
+}
